@@ -1,0 +1,15 @@
+/*COMPRA ONLINE*/
+.imagenesCompraOnline{
+	width: 200px;
+	height:150px;
+	display:inline-block;
+	padding: 20px;
+	margin: 25px;
+    border-radius: 50%;
+}
+.zoom{
+	transition: transform .5s;
+}
+.zoom:hover{
+	transform: scale(1.5);
+}

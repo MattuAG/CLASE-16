@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font google -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- SCSS -->
+    <link rel="stylesheet" href="../scss/style.scss">
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="../css/estilo.css">
+	<title>CONTACTANOS</title>
+<body>
+    <!-- NAV + LOGO -->
+	    <div class="gridcontainer">
+        <header class="header">
+            <div><a href="../index.html"><img src="../assets/img/Logo.png" width="150" height="150"></a></div>
+         </header>
+        <nav class="navbar menu">
+            <ul>
+                <li><a href="../index.html"><span class="primero active"><i class="icon icon-home"></i></span>Home</a></li>
+                <li><a href="nosotros.html"><span class="segundo"> <i class="icon icon-user-plus"></i></span>Nosotros</a></li>
+                <li><a href="galeria.html"><span class="tercero"><i class="icon icon-image"></i></span>Galeria</a></li>
+                <li><a href="compra-online.html"><span class="cuarto"><i class="icon icon-cart"></i></span>Compra online</a></li>
+                <li><a href="sucursales.html"><span class="quinto"><i class="icon icon-location"></i></span>Sucursales</a></li>
+            </ul> 
+        </nav>
+    </div>
+    <!-- CONTENIDO -->
+	<div class="contenedor">
+
+        <h1>Contacto</h1>
+
+        <div class="contenido">
+
+            <div class="info">
+
+                <div class="col">
+                    <i class="icono fas fa-map-marker-alt"></i>
+                    <p>Soler 3599, C1425 BWG, Buenos Aires</p>
+                </div>
+
+                <div class="col">
+                    <i class="icono fas fa-envelope"></i>
+                    <p>Nostalgiadesabores@gmail.com</p>
+                </div>
+
+                <div class="col">
+                    <i class="icono fas fa-phone"></i>
+                    <p> (011) 4222-1808<br> +54 1169578547</p>
+                </div>
+
+                <div class="redes-s">
+
+                    <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                </div>
+
+            </div>
+
+            <form action="enviado.html" method="GET" class="formulario">
+
+                <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                <input type="text" name="correo" placeholder="Correo electróico" id="correo">
+                <input type="text" name="asunto" placeholder="Asunto" id="asunto">
+                <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                <button type="button" onclick="validarFormulario()" >Enviar</button>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+<!-- FOOTER -->
+     <footer class="footer">
+            <div>
+            <h2>CONTACTO</h2>
+              <ul>
+                <li>
+                  <a class="contacto" href=""><i class="iconn icon-bubbles2"></i>contacto</a>
+                </li>
+                <li>
+                  <a href="https://wa.me/541169578547" target="_blank" class="contact-link"><i class="icon icon-whatsapp whatsapp"></i>541169578547</a>
+                </li>
+                <li>
+                  <a href="mailto:Nostalgiadesabores@gmail.com" target="_blank" class="contact-link"><i class="icon icon-mail4 email"></i>Nostalgiadesabores@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+            <h2>REDES</h2>
+              <ul>
+                <li>
+                  <a href="https://www.instagram.com/"target="_blank" class="insta"><i class="iconn icon-instagram"></i>instagram</a>
+                </li>
+                <li>
+                  <a href="https://es-la.facebook.com/"target="_blank" class="face"><i class="iconn icon-facebook2"></i>facebook</a>
+                </li>   
+                <li>
+                  <a href="https://twitter.com/"target="_blank" class="twit"><i class="iconn icon-twitter"></i>twiter</a>
+                </li>
+              </ul>
+            </div>
+        </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
